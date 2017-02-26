@@ -16,45 +16,35 @@
     </head>
     <body>
 				
+		<body class="scroll-assist">
+				
 		<div class="nav-container">
 		    
 		    
 		
 		    <nav class="absolute transparent">
-		            <div class="nav-bar">
-		                <div class="module left">
-		                    <a href="index.html">
-		                        <img class="logo logo-light" alt="CeliusDiscplay" src="img/logo.jpg">
-		                        <img class="logo logo-dark" alt="CeliusDiscplay" src="img/logo.jpg">
-		                    </a>
-		                </div>
-		                <div class="module widget-handle offscreen-toggle right">
-		                    <i class="ti-menu"></i>
-		                </div>
+		
+		        <div class="nav-bar text-center">
+		            <div class="col-md-2 col-md-push-5 col-sm-12 text-center">
+		                <a href="#">
+		                    <img alt="logo" class="image-xs" src="img/logo.jpg">
+		                </a>
 		            </div>
-		            <div class="offscreen-container bg-dark text-center">
-		                <div class="close-nav">
-		                    <a href="#">
-		                        <i class="ti-close"></i>
-		                    </a>
-		                </div>
-		                <div class="v-align-transform text-center">
-		                    <a href="#"><img alt="Logo" class="image-xs mb40 mb-xs-24" src="img/logo.jpg"></a>
-		                    <ul class="mb40 mb-xs-24">
-		                        <li class="fade-on-hover"><a href="#"><h5 class="uppercase mb8">Inicio</h5></a></li>
-                                <li class="fade-on-hover"><a href="#servicios"><h5 class="uppercase mb8">Servicios</h5></a></li>
-                                <li class="fade-on-hover"><a href="#otroservicios"><h5 class="uppercase mb8">Otros Servicios</h5></a></li>
-                                <li class="fade-on-hover"><a href="#nosotros"><h5 class="uppercase mb8">Nosotros</h5></a></li>
-                                <li class="fade-on-hover"><a href="#galeria"><h5 class="uppercase mb8">Galería</h5></a></li>
-                                <li class="fade-on-hover"><a href="#contacto"><h5 class="uppercase mb8">Contacto</h5></a></li>
-		                    </ul>
-		                    <p class="fade-half">
-		                       <strong>Email:</strong> hola@celiusdiscplay.com.ve
-		                        <br>
-		                        <strong>Teléfono:</strong><a href="tel:04127067540">04127067540</a> 
-		                        <br>
-		                    </p>
-		                    <ul class="list-inline social-list">
+		
+		            <div class="col-sm-12 col-md-5 col-md-pull-2 overflow-hidden-xs">
+		                <ul class="menu inline-block pull-right">
+		                    <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#galeria">Galería</a></li>
+		          
+		                </ul>
+		            </div>
+		        
+		            <div class="col-sm-12 col-md-5 pb-xs-24">
+		                <ul class="menu">
+		                    <li><a href="#otroservicios">Otros Servicios</a></li>
+		                    <li><a href="#contacto">Contácto</a>
+		              
 		                        <li>
 		                            <a href="#">
 		                                <i class="ti-twitter-alt"></i>
@@ -71,43 +61,51 @@
 		                            </a>
 		                        </li>
 		                    </ul>
-		                </div>
-		            </div>
-		        </nav>
+		                   
+		               
+		            
+                    
+                    
+                    </div>
+                    
+		        </div>
+		
+		        <div class="module widget-handle mobile-toggle right visible-sm visible-xs absolute-xs">
+		            <i class="ti-menu"></i>
+		        </div>
+            </nav>    
+		    
 		
 		</div>
 		
+		
+		
 	
 		
-		<div class="main-container">
-		<section class="fullscreen image-bg">
-		        <div class="background-image-holder">
-		            <img alt="image" class="background-image" src="img/img-8.jpeg">
-		        </div>
-		        <div class="container v-align-transform">
-		            <div class="row">
-		                <div class="col-sm-8 col-md-6 mb24">
-		                    <h2 class="uppercase">CELIUS DISCPLAY</h2>
-		                  
-		                </div>
-		                <div class="col-sm-12">
-		                    <div class="modal-container pull-left">
-		                        <div class="play-button btn-modal inline"></div>
-		                        <div class="foundry_modal no-bg">
-		                            <iframe data-provider="vimeo" data-video-id="25737856" data-autoplay="1" allowfullscreen="allowfullscreen"></iframe>
-		                        </div>
-		                    </div>
-		                    
-		                    <p class="lead inline-block p32 p0-xs pt8">
-		                        SONIDO E ILUMINACIÓN PROFESIONAL
-		                        <br> 
-		                    </p>
-		                </div>
-		            </div>
-		            
-		        </div>
-		        
-		    </section></div>
+		<section class="image-bg fullscreen overlay bg-dark">
+                <div class="background-image-holder">
+                    <img alt="Background Image" class="background-image" src="https://unsplash.imgix.net/photo-1425321395722-b1dd54a97cf3?q=75&fm=jpg&w=1080&fit=max&s=9e4ce3e023621d6f94259eea8fa3b856">
+                </div>
+                <div class="fs-vid-background">
+                    <video autoplay muted loop>
+                        <source src="video/WEBM_50-148811403528355.webm" type="video/webm">
+                        <source src="video/MP4_50-1488114035826833.mp4" type="video/mp4">
+                        <source src="video/OGV_50-14881140341946869.ogv" type="video/ogv">
+                    </video>
+                </div>
+                <div class="container v-align-transform">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1 class="uppercase">Celius Discplay</h1>
+                            <p class="lead">SONIDO E ILUMINACIÓN PROFESIONAL </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            
+            
 		<section class="hidden-xs bg-dark">
 		        <div class="container">
 		            <div class="row">
