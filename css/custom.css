@@ -1,5 +1,4 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
-esta{
--webkit-filter: brightness(50%);
-filter: brightness(80%);
+cita {
+    font-family: serif;
 }
